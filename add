@@ -1,4 +1,8 @@
 #include <stdio.h>
+int add(num1,num2)
+{
+return num1+num2;
+}
 int subtract(num1,num2)
 {
 return num1-num2;
@@ -12,9 +16,10 @@ int main() {
     scanf("%d", &num1);
     printf("Enter second number: ");
     scanf("%d", &num2);
-
-  res=subtract(num1,num2);
+  res=add(num1,num2);
     printf("The sum is: %d\n",res);
+  res=subtract(num1,num2);
+    printf("The diff is: %d\n",res);
 
     return 0;
 }
