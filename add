@@ -1,7 +1,7 @@
 #include <stdio.h>
-int add(num1,num2)
+int subtract(num1,num2)
 {
-return num1+num2;
+return num1-num2;
 }
 
 int main() {
@@ -13,7 +13,7 @@ int main() {
     printf("Enter second number: ");
     scanf("%d", &num2);
 
-  res=add(num1,num2);
+  res=subtract(num1,num2);
     printf("The sum is: %d\n",res);
 
     return 0;
