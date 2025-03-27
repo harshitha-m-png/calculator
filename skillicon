@@ -1,0 +1,11 @@
+ {
+        if (temp->newnode== FindElem)
+            break;
+        else
+        {
+            ctr++;
+            temp=temp->next;
+        }
+    }
+    return ctr; 
+}
